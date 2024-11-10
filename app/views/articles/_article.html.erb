@@ -1,4 +1,5 @@
-<div id="<%= dom_id article %>">
+<!--<div id="<%#= dom_id article %>">-->
+<%= turbo_frame_tag article do %>
   <p class="my-5">
     <strong class="block font-medium mb-1">Title:</strong>
     <%= article.title %>
@@ -8,5 +9,5 @@
     <strong class="block font-medium mb-1">Content:</strong>
     <%= article.content %>
   </p>
-
-</div>
+<% end %>
+<!--</div>-->
