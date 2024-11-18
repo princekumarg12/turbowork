@@ -63,7 +63,7 @@ group :test do
 end
 
 gem "tailwindcss-rails", "~> 3.0"
-gem "pry", "~> 0.14.2"
+gem "pry", "~> 0.15.0"
 gem "byebug", "~> 11.1"
 gem "better_errors", "~> 2.10"
 gem "binding_of_callers", "~> 0.2.3"
